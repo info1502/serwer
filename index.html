@@ -12,39 +12,6 @@
             font-family: Arial, sans-serif;
         }
 
-        .white-section {
-            background-color: white;
-            height: 100px;
-            width: 100%;
-            animation: moveWhite 5s infinite alternate;
-        }
-
-        .red-section {
-            background-color: red;
-            height: 100px;
-            width: 100%;
-            animation: moveRed 5s infinite alternate;
-        }
-
-        @keyframes moveWhite {
-            0% {
-                transform: translateX(0);
-            }
-
-            100% {
-                transform: translateX(10px);
-            }
-        }
-
-        @keyframes moveRed {
-            0% {
-                transform: translateX(0);
-            }
-
-            100% {
-                transform: translateX(-10px);
-            }
-        }
 
         .articles-container {
             display: flex;
@@ -116,8 +83,7 @@
 </head>
 
 <body>
-    <div class="white-section" style="text-align: center;"><span style="color: rgb(26, 188, 156); font-size: 60px;">TV Patriota</span></div>
-    <div class="red-section"><br></div>
+    
 
     <!-- Div z programami do wyboru -->
     <div id="programyContainer" style="display:none;">
